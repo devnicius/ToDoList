@@ -71,11 +71,14 @@ npx expo start
 
 ```bash
 src/
-├── app/             # Telas do aplicativo
+├── app/             # Telas do projeto
 ├── components/      # Componentes reutilizáveis
 ├── utils/           # Utilitários e helpers
-|   ├── types/       # Tipos TypeScript
+|   ├── types.ts     # Tipos TypeScript
+|   ├── icons.ts     # Ícones usados no projeto
+|   ├── toast.ts     # Toast usado no projeto
 ├── store/           # Estrutura de persistência dos dados
+├── theme/           # Tema do projeto (paleta)
 └── index.tsx        # Entrada principal
 ```
 
@@ -95,13 +98,15 @@ src/
 
 ## Próximos Passos (Roadmap) 🔮
 
-    1. Melhorar layout da página Home
+    1. Inserir componente de data atual na tela de exibição das tarefas
 
-    2. Adicionar autenticação de usuário
+    2. Melhorar layout da página Home
 
-    3. Adicionar tematização (claro e escuro)
+    3. Adicionar autenticação de usuário
 
-    4. Implementar testes unitários e E2E
+    4. Adicionar tematização (claro e escuro)
+
+    5. Implementar testes unitários e E2E
 
 ## Aprendizados 📚
 
