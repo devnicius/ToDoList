@@ -56,7 +56,9 @@ export default function toDoList() {
     return (
         <Animated.View style={styles.container} entering={BounceIn}>
             <Header style={styles.header} isBackActive={false}>
-                <Header.Title style={styles.title}>Lista de tarefas</Header.Title>
+                <View style={{width: '50%'}}>
+                    <Header.Title style={styles.title}>Lista de tarefas</Header.Title>
+                </View>
                 <View style={styles.clearView}>
                 <Pressable onPress={clear}>
                     <Text style={styles.clearText}>Resetar lista</Text>

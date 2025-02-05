@@ -16,12 +16,13 @@ const styles = StyleSheet.create({
        marginBottom: 24
     },
     clearView: {
-        width: '40%',
+        width: '50%',
         alignItems: 'flex-end',
         marginTop: 4,
+        paddingHorizontal: 16
     },
     clearText: {
-        fontSize: 14,
+        fontSize: 16,
         fontWeight: '700',
         color: colors.red.base
     }

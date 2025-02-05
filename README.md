@@ -2,9 +2,9 @@
 
 Aplicativo de gerenciamento de tarefas desenvolvido em React Native com TypeScript e Expo. Projeto criado como parte do processo avaliativo para vaga de Desenvolvedor Front-end Júnior.
 
-![prototipo]
+![prototipo](assets/images/Prototipo.png)
 
-![apresentacao]
+![apresentacao](assets/images//apresentacao.gif)
 
 ## Funcionalidades ✨
 
