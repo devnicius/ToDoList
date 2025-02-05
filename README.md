@@ -42,11 +42,11 @@ Aplicativo de gerenciamento de tarefas desenvolvido em React Native com TypeScri
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/todo-list-react-native.git
+git clone https://github.com/devnicius/ToDoList
 ```
 2. Instalação de dependências
 ```bash
-cd todo-list-react-native
+cd ToDoList
 npm install
 # ou
 yarn install
